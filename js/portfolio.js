@@ -64,7 +64,3 @@ $(document).ready(function () {
     hideFadeIn();
     fadeIn();
 });
-
-function navigateToProject(id) {
-    window.location = "project" + id + ".html";
-}

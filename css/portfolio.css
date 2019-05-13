@@ -747,7 +747,7 @@ html.no-csstransitions .home-content__main {
  * Propessional
  */
 .s-professional {
-    padding-top: 15rem;
+    padding-top: 16rem;
     padding-bottom: 18rem;
     color: #555555;
     position: relative;
@@ -989,7 +989,7 @@ html.no-csstransitions .home-content__main {
     font-weight: 700;
     text-align: left;
     left: 30px;
-    bottom: 40px;
+    bottom: 20px;
     font-size: 35px;
     line-height: 30px;
     text-shadow: 0 5px 8px rgba(0, 0, 0, .65);
@@ -997,6 +997,7 @@ html.no-csstransitions .home-content__main {
     overflow: hidden;
     margin: 0;
     width: 80%;
+    text-align: center;
 }
 
 .proj-1 {
