@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/form.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/portfolio.js"></script>
+</head>
+
+<body id="top">
+    <!-- header -->
+    <header class="s-header">
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo1.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+            <div class="header-nav__content">
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll" href="./home.html" title="home">Home</a></li>
+                    <li><a class="smoothscroll" href="./about.html" title="about">About</a></li>
+                    <li><a class="smoothscroll" href="./professional.html" title="P">Professional</a></li>
+                    <li><a class="smoothscroll" href="./Portfolio.html" title="works">Portfolio</a></li>
+                    <li><a class="smoothscroll" href="./contact.html" title="contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-icon"></span>
+        </a>
+    </header>
+
+    <section class="s-contact">
+        <div class="row section-header">
+            <div class="col-full">
+                <h3 class="subhead">Contact me</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container-contact100">
+
+                <div class="wrap-contact100">
+                    <form class="contact100-form validate-form">
+        
+                        <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                            <input class="input100" type="text" name="name" placeholder="Full Name">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
+                            <input class="input100" type="text" name="email" placeholder="E-mail">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate = "Please enter your phone">
+                            <input class="input100" type="text" name="phone" placeholder="Phone">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate = "Please enter your message">
+                            <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="container-contact100-form-btn">
+                            <button class="contact100-form-btn">
+                                <span>
+                                    <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+                                    Send
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
