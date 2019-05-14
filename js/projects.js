@@ -10,13 +10,13 @@ db.collection("projects").get().then((querySnapshot) => {
 function createProjectView(data) {
     var html =
         `<div class="card-wrap flipInX animated">
-            <div class="card proj-1" onclick="navigateToProject({{projectId}})">
+            <div class="card proj-{{projectId}}" onclick="navigateToProject({{projectId}})">
                 <div class="card-front">
                     <div class="card-title">{{title}}</div>
                 </div>
             </div>
-        </div>`.replace("{{projectId}}", data.id)
-        .replace("{{title}}", data.title);
+        </div>`.replace(/{{projectId}}/g, data.id)
+        .replace(/{{title}}/g, data.title);
 
     return createElementFromHTML(html);
 }
